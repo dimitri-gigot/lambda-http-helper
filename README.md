@@ -2,8 +2,8 @@
 
 A tiny helper that provide a better api for HTTP based Lambda function (AWS)
 
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
-[![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](http://npm-stat.com/charts.html?package=axios)
+[![npm version](https://img.shields.io/npm/v/lambda-http-helper.svg?style=flat-square)](https://www.npmjs.org/package/lambda-http-helper)
+[![npm downloads](https://img.shields.io/npm/dm/lambda-http-helper.svg?style=flat-square)](http://npm-stat.com/charts.html?package=lambda-http-helper)
 
 ## Wan't to help ⁉️
 

@@ -1,6 +1,6 @@
 {
   "name": "lambda-http-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny helper that provide a better api for HTTP based Lambda function (AWS)",
   "main": "main.js",
   "scripts": {
