@@ -1,7 +1,7 @@
 {
   "name": "lambda-http-helper",
-  "version": "0.0.2",
-  "description": "A tiny helper that provide a better api for HTTP based Lambda function (AWS)",
+  "version": "0.0.3",
+  "description": "A tiny helper that provides a better api for HTTP based Lambda function (AWS)",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

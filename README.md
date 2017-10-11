@@ -1,16 +1,16 @@
 # 📦 lambda-http-helper
 
-A tiny helper that provide a better api for HTTP based Lambda function (AWS)
+A tiny helper that provides a better api for HTTP based Lambda function (AWS)
 
 [![npm version](https://img.shields.io/npm/v/lambda-http-helper.svg?style=flat-square)](https://www.npmjs.org/package/lambda-http-helper)
 [![npm downloads](https://img.shields.io/npm/dm/lambda-http-helper.svg?style=flat-square)](http://npm-stat.com/charts.html?package=lambda-http-helper)
 
-## Wan't to help ⁉️
+## Want to help ⁉️
 
-This is a small project, it has already help me to write cleaner code for my ƛ **lambda** function and i think it can help the community.
+This is a small project, it has already helped me to write cleaner code for my ƛ **lambda** function and i think it can help the community.
 
-If you want to help me with **code**, **test**, **documentation** or if you have any **sugestion**.
-  ***Please*** contact me or feel free to send pull request.
+If you want to help me with **code**, **test**, **documentation** or if you have any **suggestions**.
+  ***Please*** contact me or feel free to send me a pull request.
 
 ## Installation
 
@@ -20,7 +20,7 @@ To start using it, just type this command in your console :
 npm install lambda-http-helper
 ```
 
-## Basic usage
+## Basic use
 This is the main way of using this package.
 
 ```js
@@ -41,9 +41,9 @@ module.exports.yourLambdaFunction = lambdaHttp((req, res) => {
 })
 ```
 
-## Alternative usage
+## Alternative use
 
-You can also use it in a more "*functionnal*" way.
+You can also use it in a more "*functional*" way.
 
 ```js
 const {req, res} = require('lambda-http-helper')
@@ -69,7 +69,7 @@ module.exports.yourLambdaFunction = (event, context, callback) => {
 
 ### The *req* object
 
-This *request* object is a plain javascript object. It give you access to ***Body***, ***Param*** and ***Query*** data.
+This *request* object is a plain javascript object. It gives you access to ***Body***, ***Param*** and ***Query*** data.
 
 ```js
 const {body, params, query} = req
@@ -79,8 +79,8 @@ const {body, params, query} = req
 
 This is the Response ***function***,
 
-- It help your to "prepare" your response.
-- It return a function that take the actual data as parameters.
+- It helps you to "prepare" your response.
+- It returns a function that takes the actual data as parameters.
 
 #### JSON response example
 ```js
@@ -109,7 +109,6 @@ const template = getNotFoundHTMLTemplate()
 notFound(template)
 ```
 
-
 ## ⚠️ Disclaimer ⚠️
 
-`Lambda-http-helper` is a tiny helper that i wrote in a long and boring flight 🛩, there is no test yet, be carefull.
+`Lambda-http-helper` is a tiny helper that i wrote on a long and boring flight 🛩, there is no test yet, be careful.
