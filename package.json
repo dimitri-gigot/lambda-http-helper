@@ -1,0 +1,17 @@
+{
+  "name": "lambda-http-helper",
+  "version": "0.0.1",
+  "description": "A tiny helper that provide a better api for HTTP based Lambda function (AWS)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "http",
+    "lambda",
+    "amazon"
+  ],
+  "author": "Dimitri Gigot dgigot@gmail.com",
+  "license": "MIT"
+}
